@@ -1,6 +1,3 @@
-## Visual Studio / .NET
-
-# Build nəticələri
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -14,7 +11,6 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-# Visual Studio faylları
 .vs/
 *.user
 *.suo
@@ -22,7 +18,6 @@ bld/
 *.sln.docstates
 *.userprefs
 
-# NuGet paketləri
 *.nupkg
 *.snupkg
 .nuget/
@@ -33,60 +28,44 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# MSTest
 TestResult.xml
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-# Publish profillər
 *.[Pp]ublish.xml
 *.azurePubxml
 *.pubxml
 *.publishproj
 
-# Dotnet Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# Resharper
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# Rider
 .idea/
 *.sln.iml
 
-# StyleCop
 StyleCopReport.xml
 
-# NCrunch
 _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
 
-# Dotfuscator
 Dotfuscator/
 
-# SpecFlow
 *.feature.cs
 
-# Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
 *.sap
 
-# Crash dumps
 *.dmp
 
-# JetBrains Rider
 *.sln.iml
-
-## OS faylları
-
-# Windows
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
@@ -95,7 +74,6 @@ Desktop.ini
 $RECYCLE.BIN/
 *.lnk
 
-# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -103,27 +81,19 @@ $RECYCLE.BIN/
 .Spotlight-V100
 .Trashes
 
-# Linux
 *~
-
-## Verilənlər bazası
-
-# SQL Server local db
 *.mdf
 *.ldf
 *.ndf
 
-# Connection string faylları (gizli məlumatlar)
 appsettings.local.json
 secrets.json
 connectionstrings.json
 
-## Ətraf mühit dəyişənləri
 .env
 .env.local
 .env.*.local
 
-## Digər
 *.tmp
 *.temp
 *.bak
